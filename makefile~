@@ -1,0 +1,5 @@
+
+all: xmlread
+
+xmlread: XMLreader.c
+	gcc -o xmlread XMLreader.c -Wall -std=c99 -I/usr/include/libxml2
